@@ -24,6 +24,7 @@ public class TranclucentActivity extends AppCompatActivity {
                 getStatusBarHeight() ,  toolbar.getPaddingRight() , toolbar.getPaddingBottom());
     }
 
+
     private int getStatusBarHeight() {
         int resultHeight = -1;
         try {
