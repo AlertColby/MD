@@ -9,21 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".translucent.TranclucentActivity">
+        <activity android:name=".floatingactionbutton.FloatingActionButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".cardview.CardViewActivity">
+        </activity>
+        <activity android:name=".translucent.TranclucentActivity">
+        </activity>
         <activity
             android:name=".tab.TabActivity"
-            android:label="@string/title_activity_tab">
-        </activity>
-        <activity android:name=".palette.PaletteActivity">
-        </activity>
-        <activity android:name=".toolbar.ToolbarActivity">
-        </activity>
+            android:label="@string/title_activity_tab" />
+        <activity android:name=".palette.PaletteActivity" />
+        <activity android:name=".toolbar.ToolbarActivity" />
         <activity android:name=".MainActivity" />
     </application>
 
