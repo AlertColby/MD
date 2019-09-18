@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".cus_behavior.CusBehaviorActivity">
+    <TextView
+        android:id="@+id/txt_be_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left|top"
+        android:gravity="center"
+        android:background="#f89034"
+        android:text="A被观察"/>
+    <TextView
+        app:layout_behavior=".cus_behavior.CusBehavior"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:gravity="center"
+        android:background="#449084"
+        android:text="B观察者"/>
+    <TextView
+        app:layout_behavior=".cus_behavior.CusBehavior"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="#449084"
+        android:text="B1观察者"/>
+
+</android.support.design.widget.CoordinatorLayout>

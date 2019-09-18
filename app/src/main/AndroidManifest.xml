@@ -9,17 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".floatingactionbutton.FloatingActionButtonActivity">
+        <activity android:name=".cus_behavior.CusBehaviorActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".cardview.CardViewActivity">
+        <activity android:name=".appbarlayout.AppbarLayoutActivity">
         </activity>
-        <activity android:name=".translucent.TranclucentActivity">
-        </activity>
+        <activity android:name=".parallelspace.ParallelSpaceActivity"></activity>
+        <activity android:name=".floatingactionbutton.FloatingActionButtonActivity" />
+        <activity android:name=".cardview.CardViewActivity" />
+        <activity android:name=".translucent.TranclucentActivity" />
         <activity
             android:name=".tab.TabActivity"
             android:label="@string/title_activity_tab" />
